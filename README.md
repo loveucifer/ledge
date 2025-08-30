@@ -2,11 +2,6 @@
 
 An expense tracking application that embodiesminimalist design philosophy with clean typography, subtle shadows, and elegant micro-interactions.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/placeholder-dashboard.png" width="200" alt="Dashboard Light">
-  <img src="https://github.com/user-attachments/assets/placeholder-dashboard-dark.png" width="200" alt="Dashboard Dark">
-  <img src="https://github.com/user-attachments/assets/placeholder-add.png" width="200" alt="Add Expense">
-</p>
 
 ## Features
 
