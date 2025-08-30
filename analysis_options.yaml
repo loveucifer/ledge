@@ -1,0 +1,92 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    # treat missing required parameters as a warning (not a hint)
+    missing_required_param: warning
+    # treat missing returns as a warning (not a hint)
+    missing_return: warning
+    # allow having TODOs in the code
+    todo: ignore
+
+linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at https://dart.dev/lints.
+  #
+  # Instead of disabling a lint rule for the entire project in the
+  # section below, it can also be suppressed for a single line of code
+  # or a specific dart file by using the `// ignore: name_of_lint` and
+  # `// ignore_for_file: name_of_lint` syntax on the line or in the file
+  # producing the lint.
+  rules:
+    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+    # Always declare return types for public APIs
+    always_declare_return_types: true
+    # Prefer defining constructors instead of static methods to create instances
+    prefer_constructors_over_static_methods: true
+    # Don't use adjacent strings in list
+    no_adjacent_strings_in_list: true
+    # Avoid using `as` to cast to nullable types
+    avoid_as: true
+    # Avoid using `catch` without specifying the type of exception
+    avoid_catches_without_on_clauses: true
+    # Avoid using `dynamic` type
+    avoid_dynamic_calls: true
+    # Prefer using `??=` over testing for null
+    prefer_conditional_assignment: true
+    # Prefer using `for` elements when the alternative is to conditionally add elements
+    prefer_for_elements_to_map_fromIterable: true
+    # Prefer generic function type aliases
+    prefer_generic_function_type_aliases: true
+    # Prefer initializing variables with `null` instead of using `late`
+    prefer_if_null_operators: true
+    # Prefer int literals over double literals
+    prefer_int_literals: true
+    # Prefer single quotes for strings
+    prefer_single_quotes: true
+    # Prefer using `??` operator
+    prefer_null_aware_operators: true
+    # Sort constructor declarations before method declarations
+    sort_constructors_first: true
+    # Sort pub dependencies
+    sort_pub_dependencies: true
+    # Sort unordered imports
+    sort_unnamed_constructors_first: true
+    # Don't use `null` checks for parameters that are guaranteed to be non-null
+    unnecessary_null_checks: true
+    # Don't use `null` checks when the value is guaranteed to be non-null
+    unnecessary_nullable_for_final_variable_declarations: true
+    # Use `isNotEmpty` for checking whether a collection is not empty
+    prefer_is_not_empty: true
+    # Use `isNotEmpty` for checking whether a string is not empty
+    prefer_is_not_operator: true
+    # Use `final` for variable declarations that are not reassigned
+    prefer_final_locals: true
+    # Use `final` for parameter declarations that are not reassigned
+    prefer_final_in_for_each: true
+    # Use `final` for fields that are not reassigned
+    prefer_final_fields: true
+    # Use `const` for values that are known at compile time
+    prefer_const_constructors: true
+    # Use `const` for literals that are known at compile time
+    prefer_const_literals_to_create_immutables: true
+    # Use `const` for widgets that are never rebuilt
+    prefer_const_declarations: true
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
