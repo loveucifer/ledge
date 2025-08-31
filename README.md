@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="assets/images/icon.png" alt="ledger Logo" width="150"/>
+  <img src="assets/images/icon.png" alt="Ledge Logo" width="150"/>
 </p>
-
-
 
 # Ledge
 
-An expense tracking application that embodiesminimalist design philosophy with clean typography, subtle shadows, and elegant micro-interactions.
+<p align="center">
+  <img src="assets/LEDGE1.png" alt="Ledge Screenshot 1" width="300"/>
+  <img src="assets/LEDGE2.png" alt="Ledge Screenshot 2" width="300"/>
+</p>
+
 
 
 ## Features
