@@ -5,7 +5,8 @@
 # Ledge
 
 <p align="center">
-  <img src="assets/images/LEDGE1.png" alt="Ledge Screenshot 1" width="300"/>
+  <img src="assets/images/LEDGE1.png" alt="Ledge Screenshot 1" width="300" style="margin-right:10px;"/>
+  &nbsp;&nbsp;
   <img src="assets/images/LEDGE2.png" alt="Ledge Screenshot 2" width="300"/>
 </p>
 
