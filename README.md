@@ -11,11 +11,6 @@ An expense tracking application that embodiesminimalist design philosophy with c
 
 ## Features
 
-### Design
-- **Monochrome Aesthetic**: Pure black (#000000), pure white (#FFFFFF), and carefully selected grayscale values
-- **Clean Typography**: SF Pro font family with strategic hierarchy
-- **Subtle Interactions**: Elegant micro-interactions and smooth transitions
-- **Responsive Layout**: Works beautifully across all device sizes
 
 ### Data Visualizations
 - **Colorful Charts**: Vibrant, distinct colors for clear data differentiation
